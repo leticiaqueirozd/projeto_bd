@@ -69,10 +69,11 @@ class Create:
                     PRIMARY KEY (id_produto, id_pedido)
         )"""
         self.execute_query(query)
-
+        
     def create_tables(self):
         self.create_table_cliente()
         self.create_table_vendedor()
         self.create_table_produto()
         self.create_table_pedido()
         self.create_table_item_pedido()
+        
