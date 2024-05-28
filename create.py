@@ -22,7 +22,7 @@ class Create:
         self.execute_query(query)
     
     def create_table_cliente(self):
-        query = """CREATE TABLEIF NOT EXISTS loja.cliente(
+        query = """CREATE TABLE IF NOT EXISTS loja.cliente(
                     id_cliente INT NOT NULL PRIMARY KEY,
                     nome_cliente VARCHAR(50) NOT NULL,
                     endereco VARCHAR(50) NOT NULL,
