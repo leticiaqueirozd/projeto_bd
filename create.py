@@ -47,8 +47,8 @@ class Create:
                     prazo_entrega DATE NOT NULL,
                     id_vendedor INT NOT NULL,
                     id_cliente INT NOT NULL,
-                    FOREIGH KEY (id_vendedor) REFERENCES vendedor(id_vendedor)
-                    FOREIGH KEY (id_cliente) REFERENCES cliente(id_cliente)
+                    FOREIGN KEY (id_vendedor) REFERENCES vendedor(id_vendedor)
+                    FOREIGN KEY (id_cliente) REFERENCES cliente(id_cliente)
         )"""
         self.execute_query(query)
     
