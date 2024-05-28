@@ -29,7 +29,7 @@ class Create:
                     cidade VARCHAR(30) NOT NULL,
                     cep VARCHAR(6) NOT NULL,
                     UF VARCHAR(2) NOT NULL
-        )"""
+        );"""
         self.execute_query(query)
     
     def create_table_vendedor(self):
@@ -38,7 +38,7 @@ class Create:
                     nome_vendedor VARCHAR(50) NOT NULL,
                     salario_fixo INT NOT NULL,
                     faixa_comissao INT
-        )"""
+        );"""
         self.execute_query(query)
 
     def create_table_pedido(self):
@@ -49,7 +49,7 @@ class Create:
                     id_cliente INT NOT NULL,
                     FOREIGN KEY (id_vendedor) REFERENCES vendedor (id_vendedor),
                     FOREIGN KEY (id_cliente) REFERENCES cliente (id_cliente)
-        )"""
+        );"""
         self.execute_query(query)
     
     def create_table_produto(self):
@@ -58,7 +58,7 @@ class Create:
                     unidade INT NOT NULL,
                     descricao VARCHAR(50),
                     valor FLOAT NOT NULL
-        )"""
+        );"""
         self.execute_query(query)
     
     def create_table_item_pedido(self):
@@ -67,7 +67,7 @@ class Create:
                     id_pedido INT NOT NULL,
                     quantidade INT NOT NULL,
                     PRIMARY KEY (id_produto, id_pedido)
-        )"""
+        );"""
         self.execute_query(query)
         
     def create_tables(self):
