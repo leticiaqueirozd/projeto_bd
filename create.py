@@ -32,7 +32,7 @@ class Create:
         )"""
         self.execute_query(query)
     
-    def create_table_venda(self):
+    def create_table_vendedor(self):
         query = """CREATE TABLE IF NOT EXISTS loja.vendedor (
                     id_vendedor INT NOT NULL PRIMARY KEY,
                     nome_vendedor VARCHAR(50) NOT NULL,
@@ -72,7 +72,7 @@ class Create:
 
     def create_tables(self):
         self.create_table_cliente()
-        self.create_table_venda()
+        self.create_table_vendedor()
         self.create_table_produto()
         self.create_table_pedido()
         self.create_table_item_pedido()
