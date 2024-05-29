@@ -1,0 +1,8 @@
+id_cliente,nome_cliente,endereco,cidade,cep,UF
+1,jorge,"rua um",Recife,515151-05,PE
+2,luciana,"rua dois",Olinda,515151-06,PE
+3,lucas,"rua tres",Recife,515151-07,PE
+4,ana,"rua um",Olinda,515151-05,PE
+5,cecilia,"rua dois","São Paulo",516151-06,SP
+6,matheus,"rua tres",Recife,515151-07,PE
+7,"Riei Rodrigues","rua sete",Recife,515151-05,PE
