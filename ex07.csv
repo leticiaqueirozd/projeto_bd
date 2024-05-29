@@ -2,3 +2,5 @@ SELECT SUM(unidade) FROM loja.produto
 
 SUM(unidade)
 1194
+
+

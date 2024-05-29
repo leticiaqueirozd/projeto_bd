@@ -2,3 +2,5 @@ SELECT SUM(salario_fixo) FROM loja.vendedor;
 
 SUM(salario_fixo)
 7000
+
+

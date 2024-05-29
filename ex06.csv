@@ -2,3 +2,5 @@ SELECT AVG(valor) FROM loja.produto WHERE valor > 100;
 
 AVG(valor)
 3780.773994445801
+
+

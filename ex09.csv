@@ -6,3 +6,5 @@ WHERE c.nome_cliente = 'ana';
 
 COUNT(*)
 4
+
+
