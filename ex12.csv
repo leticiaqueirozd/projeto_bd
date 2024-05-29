@@ -1,0 +1,13 @@
+SELECT descricao FROM loja.produto ORDER BY descricao;
+
+descricao
+caderneta
+caderno
+caneta
+headset
+lapis
+mouse
+notebook
+"placa de video"
+processador
+teclado

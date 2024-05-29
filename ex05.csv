@@ -1,0 +1,4 @@
+SELECT AVG(salario_fixo) FROM loja.vendedor;
+
+AVG(salario_fixo)
+3500.0000

@@ -1,0 +1,9 @@
+SELECT SUM(p.valor * ip.quantidade) 
+FROM loja.item_pedido ip 
+JOIN loja.produto p ON ip.id_produto = p.id_produto 
+JOIN loja.pedido pd ON ip.id_pedido = pd.id_pedido 
+JOIN loja.cliente c ON pd.id_cliente = c.id_cliente 
+WHERE c.nome_cliente = 'ana';
+
+"SUM(p.valor * ip.quantidade)"
+2001.4799743890762

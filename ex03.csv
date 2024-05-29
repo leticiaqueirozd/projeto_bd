@@ -1,0 +1,10 @@
+SELECT nome_cliente FROM loja.cliente ORDER BY nome_cliente;
+
+nome_cliente
+ana
+cecilia
+jorge
+lucas
+luciana
+matheus
+"Riei Rodrigues"

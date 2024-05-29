@@ -1,5 +1,4 @@
-INSERT INTO loja.cliente (id_cliente, nome_cliente, endereco, cidade, cep, UF)
-VALUES (7, 'Riei Rodrigues', 'endereco', 'cidade', 'cep', 'PE');
+UPDATE loja.cliente SET UF = 'BA' WHERE nome_cliente = 'Riei Rodrigues' AND id_cliente = 7;
 
 id_cliente,nome_cliente,endereco,cidade,cep,UF
 1,jorge,"rua um",Recife,515151-05,PE
@@ -8,4 +7,4 @@ id_cliente,nome_cliente,endereco,cidade,cep,UF
 4,ana,"rua um",Olinda,515151-05,PE
 5,cecilia,"rua dois","São Paulo",516151-06,SP
 6,matheus,"rua tres",Recife,515151-07,PE
-7,"Riei Rodrigues","rua sete",Recife,515151-05,PE
+7,"Riei Rodrigues","rua sete",Recife,515151-05,BA

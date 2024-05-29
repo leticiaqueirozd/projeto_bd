@@ -10,7 +10,7 @@ class Create:
         except Exception as e:
             print("Error: Can't execute query", e)
 
-    def create_db(self):
+    def create_db(selAf):
         query_create = """CREATE SCHEMA IF NOT EXISTS loja;"""
         self.execute_query(query_create)
 
