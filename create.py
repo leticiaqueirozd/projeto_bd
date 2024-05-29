@@ -1,6 +1,6 @@
 class Create:
     def __init__(self, conn):
-        self.cursor = conn.cursor
+        self.cursor = conn
 
     def execute_query(self, query: str, values=None):
         if values is None:
